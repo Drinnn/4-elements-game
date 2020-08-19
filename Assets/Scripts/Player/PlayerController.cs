@@ -2,6 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Configuration")]
     [SerializeField] private float moveSpeed;
 
     private Rigidbody2D _rb;

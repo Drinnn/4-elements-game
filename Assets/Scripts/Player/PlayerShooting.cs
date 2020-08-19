@@ -2,14 +2,12 @@
 
 public class PlayerShooting : MonoBehaviour
 {
-    [Header("Projectiles")]
-    [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform projectileSpawnPoint;
-
     [Header("Configuration")]
     [SerializeField] private float bodyOffset;
     [SerializeField] private float startTimeBetweenShots;
-
+    [Header("Projectiles")]
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private Transform projectileSpawnPoint;
 
     public Vector2 ActualPlayerMovement { get; set; }
 
